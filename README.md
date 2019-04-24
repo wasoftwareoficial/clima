@@ -6,10 +6,11 @@ Biblioteca simples para pegar informações de clima usando a API do Apixu, arma
 ## Como usar?
 
 Solicite suas requisições usando os parâmetros `dia`, para informar o **dia da semana** e `info` para solicitar uma **informação** específica sobre essa data.
+
 | Parâmetro | Definição           | Exemplo de requisição | Exemplo de retorno |
 |-----------|---------------------|-----------------------|--------------------|
-| dia       | Dia da semana       | 3                     | Domingo            |
-| info      | Informação desejada | chuva                 | 0.2%               |
+| `dia`     | Dia da semana       | 3                     | Domingo            |
+| `info`    | Informação desejada | chuva                 | 0.2%               |
 
 **Exemplo de solicitação:**
 > localhost/?dia=3&info=chuva
