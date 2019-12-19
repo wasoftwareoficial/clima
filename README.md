@@ -1,4 +1,8 @@
+# [DESCONTINUADO] Apixu agora é [weatherstack](https://github.com/apilayer/weatherstack#readme)
+O serviço Apixu foi oficialmente relançado como weatherstack em Outubro de 2019, não oferecendo mais planos gratuitos. Sendo assim, estamos descontinuando esse repositório.
+
 # API de clima usando o Apixu
+
 Biblioteca simples para pegar informações de clima usando a API do Apixu, armazenando as informações por **x** horas para não drenar suas requisições mensais.
 
 ⚠️ **Atenção:** não recomendamos usar essa biblioteca em produção, considerando que foi desenvolvida para fins específicos. Ao menos, clone esse repisitório e adapte-o às suas necessidades (ou deixe-as como um issue) antes de usar. Por exemplo, todas as informações retornadas são referentes à cidade de **Pedro Leopoldo - MG** e, atualmente, isso está definido diretamente no código.
